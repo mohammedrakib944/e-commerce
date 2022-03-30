@@ -1,0 +1,8 @@
+.customButton {
+  width: fit-content;
+  padding: 4px 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  font-size: 14px;
+  font-weight: 500;
+}

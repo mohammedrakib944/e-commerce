@@ -1,0 +1,41 @@
+.categoryItem {
+  position: relative;
+  min-width: 250px;
+  height: 350px;
+  max-width: 350px;
+  overflow: hidden;
+  border-radius: 7px;
+  margin-right: 12px;
+}
+
+.cItemImge {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+
+  height: 100%;
+}
+.ctextSection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.123);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  transition: 0.3s;
+}
+.ctextSection:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.ctextSection h4 {
+  margin-bottom: 10px;
+}
+.ctextSection button {
+  margin-top: 10px;
+  background: rgb(15 15 15 / 40%);
+  color: #ff7c0e;
+}
