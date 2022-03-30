@@ -1,7 +1,5 @@
 import BG from "../../assets/img/image.jpg";
 // Import Swiper React components
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

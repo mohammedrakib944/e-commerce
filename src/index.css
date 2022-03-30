@@ -6,6 +6,8 @@
   --greenOne: #db6809;
   --greenTwo: #fd7e14;
   --greenThree: #ffefd6;
+  --fontColor: rgb(95, 95, 95);
+  --fontColorDark: rgb(91, 91, 91);
 }
 
 * {
@@ -19,6 +21,10 @@ body,
 div#root {
   background-color: #fafafa;
   scroll-behavior: smooth;
+}
+hr:not([size]) {
+  height: 1px;
+  color: #c0bdbd;
 }
 .slick-prev:before,
 .slick-next:before {
