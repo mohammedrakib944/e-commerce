@@ -8,7 +8,7 @@ const CategorryItem = (props) => {
       <img src={data.img} className="cItemImge" />
       <div className="ctextSection">
         <h4>{data.title}</h4>
-        <button className={style.customButton}>BUY NOW</button>
+        <button className={style.customButton}>View</button>
       </div>
     </div>
   );

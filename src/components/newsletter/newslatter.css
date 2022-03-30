@@ -1,0 +1,30 @@
+.newsLetter {
+  width: 100%;
+  height: 300px;
+  background-color: var(--greenThree);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsLetter h3 {
+  color: var(--greenOne);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+.newsLetter h6 {
+  color: rgb(44, 44, 44);
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+.newsLetterInput {
+  width: 300px !important;
+}
+.newsLetterInput span {
+  cursor: pointer;
+}
+.newsLetterInput span,
+input {
+  background-color: rgb(255, 255, 255) !important;
+}

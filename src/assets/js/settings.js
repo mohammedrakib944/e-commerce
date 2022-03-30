@@ -1,10 +1,10 @@
 export const settings = {
   dots: true,
   infinite: true,
-  //   autoplay: true,
+  autoplay: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 20000,
   pauseOnHover: true,
   responsive: [
     {

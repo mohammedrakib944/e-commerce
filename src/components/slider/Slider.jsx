@@ -36,7 +36,7 @@ export default function Slider() {
           slot="container-start"
           className="parallax-bg"
           style={{
-            "background-image": `url(${BG})`,
+            backgroundImage: `url(${BG})`,
           }}
           data-swiper-parallax="-23%"
         ></div>

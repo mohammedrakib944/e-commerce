@@ -1,7 +1,24 @@
-/* .custom-card {
-  width: 300px;
-} */
+.custom-card {
+  transition: 0.2s;
+}
+.custom-card:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 10px #ed960d42;
+  border: 1px solid var(--greenTwo);
+}
+img.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  color: #292929;
+  font-size: 14px;
+}
 .custom-card-footer {
   display: flex;
   justify-content: space-between;
+}
+.cardBuyNow {
+  font-size: 12px;
 }

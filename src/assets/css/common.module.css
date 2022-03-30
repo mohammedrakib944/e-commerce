@@ -6,3 +6,37 @@
   font-size: 14px;
   font-weight: 500;
 }
+.loadmore {
+  background: var(--greenTwo);
+  color: white !important;
+  padding: 4px 20px;
+  position: absolute;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.loadmore:hover {
+  background: var(--greenOne);
+  color: white !important;
+}
+.customTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.filterButton {
+  background-color: var(--greenTwo);
+  padding: 4px 16px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 20px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: 0.2s;
+}
+.filterButton:hover {
+  background-color: var(--greenOne);
+}

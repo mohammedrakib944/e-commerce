@@ -1,13 +1,14 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 // import pages
-import Home from "./pages/home/Home";
+// import Home from "./pages/home/Home";
+// import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
+      {/* <ProductList /> */}
+      <Product />
     </div>
   );
 }

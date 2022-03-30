@@ -1,8 +1,8 @@
 .categoryItem {
   position: relative;
   min-width: 250px;
+  max-width: 310px;
   height: 350px;
-  max-width: 350px;
   overflow: hidden;
   border-radius: 7px;
   margin-right: 12px;
@@ -37,5 +37,5 @@
 .ctextSection button {
   margin-top: 10px;
   background: rgb(15 15 15 / 40%);
-  color: #ff7c0e;
+  color: var(--greenTwo);
 }

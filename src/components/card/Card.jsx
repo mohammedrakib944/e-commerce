@@ -1,18 +1,23 @@
 import "./card.css";
 
-import BG from "../../assets/img/image.jpg";
+const Card = (props) => {
+  const { data } = props;
 
-const Card = () => {
   return (
-    <div class="card custom-card">
-      <img src={BG} class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">Card title is here</h5>
+    <div className="card custom-card">
+      <img src={data.img} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h6 className="card-title">
+          {data.title.substring(0, 50)}
+          {data.title.length > 40 && "..."}
+        </h6>
       </div>
-      <div class="card-footer">
-        <small class="text-muted custom-card-footer">
-          <p>$260</p>
-          <a href="#">BUY NOW</a>
+      <div className="card-footer">
+        <small className="text-muted custom-card-footer">
+          <p>${data.price}</p>
+          <a href="#" className="cardBuyNow">
+            Buy Now
+          </a>
         </small>
       </div>
     </div>
