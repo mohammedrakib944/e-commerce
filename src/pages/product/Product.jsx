@@ -60,7 +60,7 @@ const Product = () => {
                   <label className="justpadding">ratings</label>
                 </p>
                 <hr />
-                <h6>Price: $ 70</h6>
+                <h6>Price: $70</h6>
                 <hr />
                 <strong>Quantity</strong>
                 <div className="productQuantity">

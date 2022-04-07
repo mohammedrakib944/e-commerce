@@ -3,7 +3,7 @@
 }
 .custom-card:hover {
   cursor: pointer;
-  box-shadow: 0 6px 10px #ed960d42;
+  box-shadow: 0 6px 10px rgb(120 77 9 / 26%);
   border: 1px solid var(--greenTwo);
 }
 img.card-img-top {

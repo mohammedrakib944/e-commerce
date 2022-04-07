@@ -6,8 +6,8 @@
   --greenOne: #db6809;
   --greenTwo: #fd7e14;
   --greenThree: #ffefd6;
-  --fontColor: rgb(95, 95, 95);
-  --fontColorDark: rgb(91, 91, 91);
+  --fontColor: rgb(53, 52, 52);
+  --fontColorDark: rgb(7, 7, 7);
 }
 
 * {
@@ -19,7 +19,8 @@
 html,
 body,
 div#root {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: white;
   scroll-behavior: smooth;
 }
 hr:not([size]) {
@@ -56,6 +57,9 @@ li {
 .card {
   border-radius: 7px !important;
   overflow: hidden;
+}
+.card-title {
+  color: rgb(14, 14, 14);
 }
 .card-footer {
   background-color: rgb(255 248 242) !important;

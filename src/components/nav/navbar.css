@@ -1,5 +1,6 @@
 .NavSection {
   background-color: white;
+  border-bottom: 1px solid #f5f5f5;
 }
 .navbar {
   padding: 12px 0 !important;

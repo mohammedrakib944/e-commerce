@@ -4,7 +4,7 @@ export const settings = {
   autoplay: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplaySpeed: 20000,
+  autoplaySpeed: 5000,
   pauseOnHover: true,
   responsive: [
     {
