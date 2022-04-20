@@ -7,10 +7,10 @@ import Cart from "./pages/cart/Cart";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <ProductList /> */}
       {/* <Product /> */}
-      <Cart />
+      {/* <Cart /> */}
     </div>
   );
 }
