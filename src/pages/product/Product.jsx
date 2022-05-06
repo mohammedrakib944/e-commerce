@@ -1,6 +1,13 @@
 import { useState } from "react";
 import Slider from "react-slick";
-import { StarFill, Star, CartCheckFill } from "react-bootstrap-icons";
+import {
+  StarFill,
+  Star,
+  CartCheckFill,
+  Dash,
+  Plus,
+} from "react-bootstrap-icons";
+
 // internal imports
 import "./product.css";
 import img1 from "../../assets/img/1.jpg";
@@ -24,6 +31,7 @@ const Product = () => {
     <>
       <NavBar />
       <div className="container">
+        <br />
         <div className="singleProductSection">
           <div className="row">
             <div className="col-md-6">
@@ -68,10 +76,12 @@ const Product = () => {
                     disabled={quantity === 1 ? true : false}
                     onClick={() => setQuantity(quantity > 1 ? quantity - 1 : 1)}
                   >
-                    -
+                    <Dash />
                   </button>
                   <p>{quantity}</p>
-                  <button onClick={() => setQuantity(quantity + 1)}>+</button>
+                  <button onClick={() => setQuantity(quantity + 1)}>
+                    <Plus />
+                  </button>
                 </div>
                 <button className="addtoCartButton">
                   Add to cart <CartCheckFill className="cartcheckfill" />

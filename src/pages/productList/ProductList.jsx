@@ -6,6 +6,7 @@ import style from "../../assets/css/common.module.css";
 import { productsData, checkboxData } from "../../assets/js/Database";
 import Filtering from "../../components/filtering/Filtering";
 import NewsLetter from "../../components/newsletter/NewsLetter";
+import { Link } from "react-router-dom";
 
 const ProductList = () => {
   return (
@@ -31,7 +32,9 @@ const ProductList = () => {
             <h3 className={style.customTitle}>T-shirt</h3>
             <div className="productList">
               {productsData.map((data, index) => (
-                <Card key={index} data={data} />
+                <Link to={data.path}>
+                  <Card key={index} data={data} />
+                </Link>
               ))}
             </div>
             <br />

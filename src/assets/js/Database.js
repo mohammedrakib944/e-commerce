@@ -11,26 +11,31 @@ export const catagoryData = [
     id: 1,
     title: "T-shirt Category",
     img: img1,
+    path: "/product-list",
   },
   {
     id: 2,
     title: "Another Category",
     img: img2,
+    path: "/product-list",
   },
   {
     id: 3,
     title: "Womans Section",
     img: img3,
+    path: "/product-list",
   },
   {
     id: 4,
     title: "Babys cloths",
     img: img4,
+    path: "/product-list",
   },
   {
     id: 5,
     title: "Best Deals fro you",
     img: img5,
+    path: "/product-list",
   },
 ];
 
@@ -40,6 +45,7 @@ export const productsData = [
     price: "120",
     title: "First Product",
     img: img7,
+    path: "/product",
   },
   {
     details: "",
@@ -47,54 +53,63 @@ export const productsData = [
     title:
       "Second Product title shoud be bigger than other title just for checking",
     img: img6,
+    path: "/product",
   },
   {
     details: "",
     price: "89",
     title: "Third Product",
     img: img1,
+    path: "/product",
   },
   {
     details: "",
     price: "52",
     title: "Forth Product",
     img: img2,
+    path: "/product",
   },
   {
     details: "",
     price: "12",
     title: "Fifth Product",
     img: img3,
+    path: "/product",
   },
   {
     details: "",
     price: "20",
     title: "Sixth Product",
     img: img4,
+    path: "/product",
   },
   {
     details: "",
     price: "520",
     title: "Seven Product",
     img: img5,
+    path: "/product",
   },
   {
     details: "",
     price: "80",
     title: "Eight Product",
     img: img6,
+    path: "/product",
   },
   {
     details: "",
     price: "20",
     title: "Sixth Product",
     img: img4,
+    path: "/product",
   },
   {
     details: "",
     price: "520",
     title: "Seven Product",
     img: img5,
+    path: "/product",
   },
 ];
 

@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 // internal imports
 import "./categories.css";
@@ -15,7 +16,9 @@ const Categories = () => {
       <div>
         <Slider {...settings}>
           {catagoryData.map((val, index) => (
-            <CategorryItem key={index} data={val} />
+            <Link to={val.path} key={index}>
+              <CategorryItem data={val} />
+            </Link>
           ))}
         </Slider>
       </div>

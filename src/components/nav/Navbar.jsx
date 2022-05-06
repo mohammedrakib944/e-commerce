@@ -1,4 +1,5 @@
 import { Search, Cart3 } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 // internal imports
 import "./navbar.css";
 
@@ -8,7 +9,9 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar">
           <div className="logo-section">
-            <h4>CLOTHS</h4>
+            <Link to="/">
+              <h4>CLOTHS</h4>
+            </Link>
           </div>
           <div className="search-section">
             <div className="input-group">
@@ -25,12 +28,12 @@ const Navbar = () => {
           <div className="auth-section">
             <a href="#">Register</a>
             <a href="#">Sign in</a>
-            <a href="#" className="position-relative">
+            <Link to="/cart" className="position-relative">
               <Cart3 className="custom-cart" />
               <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 4
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
